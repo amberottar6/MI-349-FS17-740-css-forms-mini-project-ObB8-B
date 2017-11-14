@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Marathon Form</title>
+  </head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <body>
+    <div class="container">
+      <h2>East Lansing Marathon</h2>
+      <p>So you think you're a runner? Come run along other people who think they can run for 26.2 miles. That's a lot. Wow, good luck.</p>
+      <form>
+        <div class="form-group">
+          <label for="fname">First Name:</label>
+          <input type="fname" class="form-control" id="fname" placeholder="first name">
+        </div>
+        <div class="form-group">
+          <label for="lname">Last Name:</label>
+          <input type="lname" class="form-control" id="lname" placeholder="last name">
+        </div>
+        <div class="form-group">
+          <label for="age">Age:</label>
+          <input type="age" class="form-control" id="age" placeholder="age">
+        </div>
+        <div class="form-group">
+          <label for="address">Adress:</label>
+          <input type="address" class="form-control" id="street" placeholder="street">
+          <input type="address" class="form-control" id="city" placeholder="city">
+          <input type="address" class="form-control" id="state" placeholder="state and ZIP">
+        </div>
+        <div class="form-group">
+          <label for="gender">Gender:</label>
+          <label class="checkbox-inline"><input type="checkbox" value="">Male</label>
+          <label class="checkbox-inline"><input type="checkbox" value="">Female</label>
+        </div>
+        <div class="form-group">
+          <label for="sel1">Select Shirt Size:</label>
+          <select class="form-control" id="sel1">
+            <option>xsmall</option>
+            <option>small</option>
+            <option>medium</option>
+            <option>large</option>
+            <option>xlarge</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
